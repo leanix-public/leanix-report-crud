@@ -1,4 +1,4 @@
-# Data Object Actions
+# leanix-report-crud
 
 This Report shows a matrix which depicts DataObjects in usage to Applications.
 
@@ -28,4 +28,4 @@ It will take the specified API Token from `lxr.json` and automatically do a logi
 
 Uploads the report to the workspace configured in `lxr.json`.
 Please see [Uploading to LeanIX workspace](https://github.com/leanix/leanix-reporting-cli#uploading-to-leanix-workspace).
-# leanix-report-crud
+
