@@ -374,8 +374,8 @@ class Report extends Component {
 	_createMissingData(dataObjectData, missingDataObjects){
 		let missingData = [];
 		const reason = "No relation to application";
-		
-		if(dataObjectData.length > 0 && missingDataObjects.length > 0){
+
+		if(dataObjectData != null && missingDataObjects != null && dataObjectData.length > 0 && missingDataObjects.length > 0){
 			missingDataObjects.forEach((dataObject) =>{
 				if(dataObjectData[dataObject.node.id]){
 					missingData.push({
