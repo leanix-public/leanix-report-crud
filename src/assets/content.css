@@ -1,0 +1,64 @@
+#content .matrix {
+	display: inline-block;
+}
+
+.matrix table {
+	border-collapse: separate;
+	border-spacing: 2px;
+	empty-cells: hide;
+}
+
+.matrix th.matrix-labels {
+	background: #F3F3F3 !important;
+	color: inherit;
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.matrix .label {
+	font-weight: initial;
+}
+
+.matrix .label a {
+	color: inherit;
+}
+
+.yTableHeader {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	width: 200px;
+}
+
+.xTableHeader {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.matrix .header a {
+	color: inherit;
+
+}
+
+.matrix .header {
+	color: #000000;
+}
+
+.matrix th {
+	background: #cccccc;
+	color: #000000;
+	padding: 0.5em;
+}
+
+.matrix td {
+	background: #F3F3F3;
+	vertical-align: top;
+}
+
+.Select-menu-outer {
+  z-index: 10 !important;
+}
